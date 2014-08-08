@@ -1,0 +1,3 @@
+/* Localized versions of Info.plist keys */
+CFBundleDisplayName = "My Battery";
+CFBundleName = "My Battery";

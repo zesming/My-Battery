@@ -1,0 +1,102 @@
+
+/* Class = "IBUILabel"; text = "Fully Charged"; ObjectID = "0S8-Q7-vqe"; */
+"0S8-Q7-vqe.text" = "Fully Charged";
+
+/* Class = "IBUILabel"; text = "About Me"; ObjectID = "3yY-mD-1TF"; */
+"3yY-mD-1TF.text" = "About Me";
+
+/* Class = "IBUILabel"; text = "0000 mA"; ObjectID = "6is-Ot-21R"; */
+"6is-Ot-21R.text" = "0000 mA";
+
+/* Class = "IBUILabel"; text = "@叫我老赵就好"; ObjectID = "7Tf-jO-R7b"; */
+"7Tf-jO-R7b.text" = "@叫我老赵就好";
+
+/* Class = "IBUILabel"; text = "0000 mAh"; ObjectID = "8Ll-ak-2cI"; */
+"8Ll-ak-2cI.text" = "0000 mAh";
+
+/* Class = "IBUILabel"; text = "1000 mA"; ObjectID = "9V8-Zx-1w2"; */
+"9V8-Zx-1w2.text" = "1000 mA";
+
+/* Class = "IBUIBarButtonItem"; title = "..."; ObjectID = "AJm-QI-p2D"; */
+"AJm-QI-p2D.title" = "...";
+
+/* Class = "IBUILabel"; text = "00 h 00 m"; ObjectID = "ARF-kg-ZCk"; */
+"ARF-kg-ZCk.text" = "00 h 00 m";
+
+/* Class = "IBUILabel"; text = "100.00%"; ObjectID = "Ejf-d4-fFW"; */
+"Ejf-d4-fFW.text" = "100.00%";
+
+/* Class = "IBUILabel"; text = "Cycle Count"; ObjectID = "Fxo-om-1pJ"; */
+"Fxo-om-1pJ.text" = "Cycle Count";
+
+/* Class = "IBUILabel"; text = "iPhone 5s"; ObjectID = "Ge4-iq-846"; */
+"Ge4-iq-846.text" = "iPhone 5s";
+
+/* Class = "IBUILabel"; text = "Charging/Draining"; ObjectID = "LzD-xg-INq"; */
+"LzD-xg-INq.text" = "Charging/Draining";
+
+/* Class = "IBUILabel"; text = "Max Capacity"; ObjectID = "ONQ-Tj-mlv"; */
+"ONQ-Tj-mlv.text" = "Max Capacity";
+
+/* Class = "IBUILabel"; text = "Charger Output"; ObjectID = "PHT-IC-2Px"; */
+"PHT-IC-2Px.text" = "Charger Output";
+
+/* Class = "IBUILabel"; text = "0000 mAh"; ObjectID = "Qmo-24-t4p"; */
+"Qmo-24-t4p.text" = "0000 mAh";
+
+/* Class = "IBUILabel"; text = "Voltage"; ObjectID = "R6d-MJ-r5A"; */
+"R6d-MJ-r5A.text" = "Voltage";
+
+/* Class = "IBUILabel"; text = "About App"; ObjectID = "RQP-H6-voz"; */
+"RQP-H6-voz.text" = "About App";
+
+/* Class = "IBUILabel"; text = "Current Level"; ObjectID = "TPX-oO-ngm"; */
+"TPX-oO-ngm.text" = "Current Level";
+
+/* Class = "IBUINavigationItem"; title = "My Battery"; ObjectID = "Tmg-dA-yEc"; */
+"Tmg-dA-yEc.title" = "My Battery";
+
+/* Class = "IBUITableViewSection"; headerTitle = "Detail"; ObjectID = "XMe-gJ-n8Z"; */
+"XMe-gJ-n8Z.headerTitle" = "Detail";
+
+/* Class = "IBUILabel"; text = "Temperature"; ObjectID = "YOn-Jz-Wxx"; */
+"YOn-Jz-Wxx.text" = "Temperature";
+
+/* Class = "IBUILabel"; text = "ming9010@gmail.com"; ObjectID = "ZgI-4v-ITz"; */
+"ZgI-4v-ITz.text" = "ming9010@gmail.com";
+
+/* Class = "IBUINavigationItem"; title = "About"; ObjectID = "abD-Kq-hS8"; */
+"abD-Kq-hS8.title" = "About";
+
+/* Class = "IBUILabel"; text = "0000 mAh"; ObjectID = "blL-as-bnL"; */
+"blL-as-bnL.text" = "0000 mAh";
+
+/* Class = "IBUILabel"; text = "Yes"; ObjectID = "hJO-9n-NOt"; */
+"hJO-9n-NOt.text" = "Yes";
+
+/* Class = "IBUILabel"; text = "Design Capacity"; ObjectID = "nXx-3j-qhy"; */
+"nXx-3j-qhy.text" = "Design Capacity";
+
+/* Class = "IBUILabel"; text = "0000"; ObjectID = "nlr-Ir-ndX"; */
+"nlr-Ir-ndX.text" = "0000";
+
+/* Class = "IBUILabel"; text = "0000"; ObjectID = "qFh-BZ-7me"; */
+"qFh-BZ-7me.text" = "0000";
+
+/* Class = "IBUILabel"; text = "Battery Health"; ObjectID = "qR1-7I-Fnw"; */
+"qR1-7I-Fnw.text" = "Battery Health";
+
+/* Class = "IBUILabel"; text = "00000 mV"; ObjectID = "rx9-vV-QVJ"; */
+"rx9-vV-QVJ.text" = "00000 mV";
+
+/* Class = "IBUILabel"; text = "Remaining Time"; ObjectID = "sKV-u5-HyM"; */
+"sKV-u5-HyM.text" = "Remaining Time";
+
+/* Class = "IBUILabel"; text = "Current Capacity"; ObjectID = "uPj-eZ-6Db"; */
+"uPj-eZ-6Db.text" = "Current Capacity";
+
+/* Class = "IBUILabel"; text = "ming9010@sina.com"; ObjectID = "yay-TJ-CSp"; */
+"yay-TJ-CSp.text" = "ming9010@sina.com";
+
+/* Class = "IBUILabel"; text = "100.00%"; ObjectID = "zHf-So-6YN"; */
+"zHf-So-6YN.text" = "100.00%";

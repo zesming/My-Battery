@@ -1,0 +1,108 @@
+
+/* Class = "IBUILabel"; text = "Fully Charged"; ObjectID = "0S8-Q7-vqe"; */
+"0S8-Q7-vqe.text" = "完全充电";
+
+/* Class = "IBUITextView"; text = "这是ChargingHelper配套的一个App，用来显示电池的一些信息。这里面显示的一些数据每隔几秒钟就会刷新一次。"; ObjectID = "31V-Pj-mag"; */
+"31V-Pj-mag.text" = "这是ChargingHelper配套的一个App，用来显示电池的一些信息。这里面显示的一些数据每隔几秒钟就会刷新一次。上面一些数据会根据当前值显示不同的颜色。";
+
+/* Class = "IBUILabel"; text = "About Me"; ObjectID = "3yY-mD-1TF"; */
+"3yY-mD-1TF.text" = "关于我";
+
+/* Class = "IBUITextView"; text = "程序猿，自学iOS开发，只是为了让自己想的能成为现实！崇尚免费开源，当然欢迎捐助！"; ObjectID = "5n0-xC-BCr"; */
+"5n0-xC-BCr.text" = "程序猿，自学iOS开发，只是为了让自己想的功能能成为现实！崇尚免费开源，当然欢迎捐助！";
+
+/* Class = "IBUILabel"; text = "0000 mA"; ObjectID = "6is-Ot-21R"; */
+"6is-Ot-21R.text" = "0000 mA";
+
+/* Class = "IBUILabel"; text = "@叫我老赵就好"; ObjectID = "7Tf-jO-R7b"; */
+"7Tf-jO-R7b.text" = "@叫我老赵就好";
+
+/* Class = "IBUILabel"; text = "0000 mAh"; ObjectID = "8Ll-ak-2cI"; */
+"8Ll-ak-2cI.text" = "0000 mAh";
+
+/* Class = "IBUILabel"; text = "1000 mA"; ObjectID = "9V8-Zx-1w2"; */
+"9V8-Zx-1w2.text" = "1000 mA";
+
+/* Class = "IBUIBarButtonItem"; title = "！"; ObjectID = "AJm-QI-p2D"; */
+"AJm-QI-p2D.title" = "...";
+
+/* Class = "IBUILabel"; text = "00 h 00 m"; ObjectID = "ARF-kg-ZCk"; */
+"ARF-kg-ZCk.text" = "00 h 00 m";
+
+/* Class = "IBUILabel"; text = "100.00%"; ObjectID = "Ejf-d4-fFW"; */
+"Ejf-d4-fFW.text" = "100.00%";
+
+/* Class = "IBUILabel"; text = "Cycle Count"; ObjectID = "Fxo-om-1pJ"; */
+"Fxo-om-1pJ.text" = "循环次数";
+
+/* Class = "IBUILabel"; text = "iPhone 5s"; ObjectID = "Ge4-iq-846"; */
+"Ge4-iq-846.text" = "iPhone 5s";
+
+/* Class = "IBUILabel"; text = "Charging/Draining"; ObjectID = "LzD-xg-INq"; */
+"LzD-xg-INq.text" = "Charging/Draining";
+
+/* Class = "IBUILabel"; text = "Max Capacity"; ObjectID = "ONQ-Tj-mlv"; */
+"ONQ-Tj-mlv.text" = "实际最大容量";
+
+/* Class = "IBUILabel"; text = "Charger Output"; ObjectID = "PHT-IC-2Px"; */
+"PHT-IC-2Px.text" = "充电器最大输出";
+
+/* Class = "IBUILabel"; text = "0000 mAh"; ObjectID = "Qmo-24-t4p"; */
+"Qmo-24-t4p.text" = "0000 mAh";
+
+/* Class = "IBUILabel"; text = "Voltage"; ObjectID = "R6d-MJ-r5A"; */
+"R6d-MJ-r5A.text" = "电池电压";
+
+/* Class = "IBUILabel"; text = "About App"; ObjectID = "RQP-H6-voz"; */
+"RQP-H6-voz.text" = "关于该软件";
+
+/* Class = "IBUILabel"; text = "Current Level"; ObjectID = "TPX-oO-ngm"; */
+"TPX-oO-ngm.text" = "当前电量";
+
+/* Class = "IBUINavigationItem"; title = "My Battery"; ObjectID = "Tmg-dA-yEc"; */
+"Tmg-dA-yEc.title" = "我的电池";
+
+/* Class = "IBUITableViewSection"; headerTitle = "Detail"; ObjectID = "XMe-gJ-n8Z"; */
+"XMe-gJ-n8Z.headerTitle" = "详细信息";
+
+/* Class = "IBUILabel"; text = "Temperature"; ObjectID = "YOn-Jz-Wxx"; */
+"YOn-Jz-Wxx.text" = "电池温度";
+
+/* Class = "IBUILabel"; text = "ming9010@gmail.com"; ObjectID = "ZgI-4v-ITz"; */
+"ZgI-4v-ITz.text" = "ming9010@gmail.com";
+
+/* Class = "IBUINavigationItem"; title = "About"; ObjectID = "abD-Kq-hS8"; */
+"abD-Kq-hS8.title" = "关于";
+
+/* Class = "IBUILabel"; text = "0000 mAh"; ObjectID = "blL-as-bnL"; */
+"blL-as-bnL.text" = "0000 mAh";
+
+/* Class = "IBUILabel"; text = "Yes"; ObjectID = "hJO-9n-NOt"; */
+"hJO-9n-NOt.text" = "Yes";
+
+/* Class = "IBUILabel"; text = "Design Capacity"; ObjectID = "nXx-3j-qhy"; */
+"nXx-3j-qhy.text" = "电池设计容量";
+
+/* Class = "IBUILabel"; text = "0000"; ObjectID = "nlr-Ir-ndX"; */
+"nlr-Ir-ndX.text" = "0000";
+
+/* Class = "IBUILabel"; text = "0000"; ObjectID = "qFh-BZ-7me"; */
+"qFh-BZ-7me.text" = "0000";
+
+/* Class = "IBUILabel"; text = "Battery Health"; ObjectID = "qR1-7I-Fnw"; */
+"qR1-7I-Fnw.text" = "电池健康度";
+
+/* Class = "IBUILabel"; text = "00000 mV"; ObjectID = "rx9-vV-QVJ"; */
+"rx9-vV-QVJ.text" = "00000 mV";
+
+/* Class = "IBUILabel"; text = "Remaining Time"; ObjectID = "sKV-u5-HyM"; */
+"sKV-u5-HyM.text" = "Remaining Time";
+
+/* Class = "IBUILabel"; text = "Current Capacity"; ObjectID = "uPj-eZ-6Db"; */
+"uPj-eZ-6Db.text" = "电池当前容量";
+
+/* Class = "IBUILabel"; text = "ming9010@sina.com"; ObjectID = "yay-TJ-CSp"; */
+"yay-TJ-CSp.text" = "ming9010@sina.com";
+
+/* Class = "IBUILabel"; text = "100.00%"; ObjectID = "zHf-So-6YN"; */
+"zHf-So-6YN.text" = "100.00%";

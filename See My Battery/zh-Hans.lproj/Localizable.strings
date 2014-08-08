@@ -1,0 +1,21 @@
+/* 
+  Localizable.strings
+  My Battery
+
+  Created by Ming on 14-7-24.
+  Copyright (c) 2014年 Ming. All rights reserved.
+*/
+"Draining..." = "耗电量";
+"Can Use" = "预计可以使用";
+"Charging..." = "充电量";
+"Remaining Time" = "预计剩余时间";
+"%d h %d m" = "%d 小时 %d 分钟";
+"Trickle Charging..." = "涓流充电中...";
+"Charging is complete" = "充电已完成";
+"No Charger" = "未插充电器";
+"No Charging" = "未充电";
+"Yes" = "是";
+"No" = "否";
+
+"This is a APP with ChargingHelper, to display some information of the battery. It displays some of the data, and will be refreshed once every few seconds." = "这是ChargingHelper配套的一个App，用来显示电池的一些信息。这里面显示的一些数据每隔几秒钟就会刷新一次。上面一些数据会根据当前值显示不同的颜色。";
+"A Chinese Developer, self-study iOS development, just to make the favorite features to become a reality! Advocating free and open source, of course, welcome to donate!" = "程序猿，自学iOS开发，只是为了让喜欢的功能可以成为现实！崇尚免费开源，当然欢迎捐助！";
