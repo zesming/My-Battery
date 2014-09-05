@@ -73,7 +73,7 @@
             deviceModel = @"iPhone 4";
         }else if([platform isEqualToString:@"iPhone4,1"])
         {
-            deviceModel = @"iPhone 4S";
+            deviceModel = @"iPhone 4s";
         }else if([platform isEqualToString:@"iPhone5,1"])
         {
             deviceModel = @"iPhone 5";
@@ -82,16 +82,16 @@
             deviceModel = @"iPhone 5";
         }else if([platform isEqualToString:@"iPhone5,3"])
         {
-            deviceModel = @"iPhone 5C";
+            deviceModel = @"iPhone 5c";
         }else if([platform isEqualToString:@"iPhone5,4"])
         {
-            deviceModel = @"iPhone 5C";
+            deviceModel = @"iPhone 5c";
         }else if([platform isEqualToString:@"iPhone6,1"])
         {
-            deviceModel = @"iPhone 5S";
+            deviceModel = @"iPhone 5s";
         }else if([platform isEqualToString:@"iPhone6,2"])
         {
-            deviceModel = @"iPhone 5S";
+            deviceModel = @"iPhone 5s";
         }
         /* iPad设备信息 */
         else if([platform isEqualToString:@"iPad1,1"])
