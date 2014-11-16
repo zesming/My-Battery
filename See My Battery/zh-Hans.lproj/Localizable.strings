@@ -16,6 +16,3 @@
 "No Charging" = "未充电";
 "Yes" = "是";
 "No" = "否";
-
-"This is a APP with ChargingHelper, to display some information of the battery. It displays some of the data, and will be refreshed once every few seconds." = "这是ChargingHelper配套的一个App，用来显示电池的一些信息。这里面显示的一些数据每隔几秒钟就会刷新一次。上面一些数据会根据当前值显示不同的颜色。";
-"A Chinese Developer, self-study iOS development, just to make the favorite features to become a reality! Advocating free and open source, of course, welcome to donate!" = "程序猿，自学iOS开发，只是为了让喜欢的功能可以成为现实！崇尚免费开源，当然欢迎捐助！";

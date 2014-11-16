@@ -17,6 +17,12 @@
       "idiom" : "iphone",
       "filename" : "my_battery_120.png",
       "scale" : "2x"
+    },
+    {
+      "size" : "60x60",
+      "idiom" : "iphone",
+      "filename" : "my_battery_icon@2x副本.png",
+      "scale" : "3x"
     }
   ],
   "info" : {

@@ -101,6 +101,12 @@
 /* Class = "IBUILabel"; text = "Current Capacity"; ObjectID = "uPj-eZ-6Db"; */
 "uPj-eZ-6Db.text" = "电池当前容量";
 
+/* Class = "IBUILabel"; text = "Manufacturer"; ObjectID = "O9C-ff-RwR"; */
+"O9C-ff-RwR.text" = "电池制造商";
+
+/* Class = "IBUILabel"; text = "Serial Number"; ObjectID = "p43-JF-tuv"; */
+"p43-JF-tuv.text" = "电池序列号";
+
 /* Class = "IBUILabel"; text = "ming9010@sina.com"; ObjectID = "yay-TJ-CSp"; */
 "yay-TJ-CSp.text" = "ming9010@sina.com";
 

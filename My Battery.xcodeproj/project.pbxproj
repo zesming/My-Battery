@@ -20,7 +20,6 @@
 		3A59AC3019809EC0006B914C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A59AC2F19809EC0006B914C /* Images.xcassets */; };
 		3A59AC571980AA54006B914C /* BIDBatteryInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A59AC561980AA54006B914C /* BIDBatteryInfo.m */; };
 		3A59AC5A1980ABAB006B914C /* BIDMainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A59AC591980ABAB006B914C /* BIDMainTableViewController.m */; };
-		3AEDA7851980F5CB000AF3D1 /* BIDAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AEDA7841980F5CB000AF3D1 /* BIDAboutViewController.m */; };
 		3AEDA7881980FA10000AF3D1 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3AEDA78A1980FA10000AF3D1 /* Localizable.strings */; };
 		3AF725C41983C4DC00FFB28C /* my_battery_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AF725C31983C4DC00FFB28C /* my_battery_icon@2x.png */; };
 /* End PBXBuildFile section */
@@ -49,8 +48,6 @@
 		3A59AC561980AA54006B914C /* BIDBatteryInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDBatteryInfo.m; sourceTree = "<group>"; };
 		3A59AC581980ABAB006B914C /* BIDMainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDMainTableViewController.h; sourceTree = "<group>"; };
 		3A59AC591980ABAB006B914C /* BIDMainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDMainTableViewController.m; sourceTree = "<group>"; };
-		3AEDA7831980F5CB000AF3D1 /* BIDAboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDAboutViewController.h; sourceTree = "<group>"; };
-		3AEDA7841980F5CB000AF3D1 /* BIDAboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDAboutViewController.m; sourceTree = "<group>"; };
 		3AEDA78B1980FA13000AF3D1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		3AEDA78C1980FA14000AF3D1 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		3AF725C31983C4DC00FFB28C /* my_battery_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "my_battery_icon@2x.png"; sourceTree = "<group>"; };
@@ -107,8 +104,6 @@
 				3A59AC2F19809EC0006B914C /* Images.xcassets */,
 				3A59AC581980ABAB006B914C /* BIDMainTableViewController.h */,
 				3A59AC591980ABAB006B914C /* BIDMainTableViewController.m */,
-				3AEDA7831980F5CB000AF3D1 /* BIDAboutViewController.h */,
-				3AEDA7841980F5CB000AF3D1 /* BIDAboutViewController.m */,
 				3A59AC551980AA54006B914C /* BIDBatteryInfo.h */,
 				3A59AC561980AA54006B914C /* BIDBatteryInfo.m */,
 				3A59AC1E19809EC0006B914C /* Supporting Files */,
@@ -223,7 +218,6 @@
 			files = (
 				3A59AC2819809EC0006B914C /* BIDAppDelegate.m in Sources */,
 				3A59AC571980AA54006B914C /* BIDBatteryInfo.m in Sources */,
-				3AEDA7851980F5CB000AF3D1 /* BIDAboutViewController.m in Sources */,
 				3A59AC5A1980ABAB006B914C /* BIDMainTableViewController.m in Sources */,
 				3A59AC2419809EC0006B914C /* main.m in Sources */,
 			);
@@ -338,10 +332,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "See My Battery/My Battery-Prefix.pch";
 				INFOPLIST_FILE = "See My Battery/My Battery-Info.plist";
 				PRODUCT_NAME = "My Battery";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -351,10 +349,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "See My Battery/My Battery-Prefix.pch";
 				INFOPLIST_FILE = "See My Battery/My Battery-Info.plist";
 				PRODUCT_NAME = "My Battery";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

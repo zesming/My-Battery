@@ -95,6 +95,12 @@
 /* Class = "IBUILabel"; text = "Current Capacity"; ObjectID = "uPj-eZ-6Db"; */
 "uPj-eZ-6Db.text" = "Current Capacity";
 
+/* Class = "IBUILabel"; text = "Manufacturer"; ObjectID = "O9C-ff-RwR"; */
+"O9C-ff-RwR.text" = "Manufacturer";
+
+/* Class = "IBUILabel"; text = "Serial Number"; ObjectID = "p43-JF-tuv"; */
+"p43-JF-tuv.text" = "Serial Number";
+
 /* Class = "IBUILabel"; text = "ming9010@sina.com"; ObjectID = "yay-TJ-CSp"; */
 "yay-TJ-CSp.text" = "ming9010@sina.com";
 

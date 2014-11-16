@@ -12,6 +12,8 @@
 #import <sys/sysctl.h>
 
 @interface BIDMainTableViewController ()
+@property (weak, nonatomic) IBOutlet UILabel *manufacturerLabel;
+@property (weak, nonatomic) IBOutlet UILabel *serialNumberLabel;
 
 @end
 
@@ -32,7 +34,7 @@
     
     [self setTableViewFrame];
     [self showBatteryInfo];
-    self.refreshTimer = [NSTimer scheduledTimerWithTimeInterval:1 target:self selector:@selector(showBatteryInfo) userInfo:nil repeats:YES];
+    self.refreshTimer = [NSTimer scheduledTimerWithTimeInterval:10 target:self selector:@selector(showBatteryInfo) userInfo:nil repeats:YES];
 
 }
 
@@ -92,6 +94,12 @@
         }else if([platform isEqualToString:@"iPhone6,2"])
         {
             deviceModel = @"iPhone 5s";
+        }else if([platform isEqualToString:@"iPhone7,2"])
+        {
+            deviceModel = @"iPhone 6";
+        }else if([platform isEqualToString:@"iPhone7,1"])
+        {
+            deviceModel = @"iPhone 6 Plus";
         }
         /* iPad设备信息 */
         else if([platform isEqualToString:@"iPad1,1"])
@@ -144,10 +152,25 @@
             deviceModel = @"iPad Air";
         }else if([platform isEqualToString:@"iPad4,4"])
         {
-            deviceModel = @"iPad mini Retina";
+            deviceModel = @"iPad mini 2";
         }else if([platform isEqualToString:@"iPad4,5"])
         {
-            deviceModel = @"iPad mini Retina";
+            deviceModel = @"iPad mini 2";
+        }else if([platform isEqualToString:@"iPad4,7"])
+        {
+            deviceModel = @"iPad mini 3";
+        }else if([platform isEqualToString:@"iPad4,8"])
+        {
+            deviceModel = @"iPad mini 3";
+        }else if([platform isEqualToString:@"iPad4,9"])
+        {
+            deviceModel = @"iPad mini 3";
+        }else if([platform isEqualToString:@"iPad5,3"])
+        {
+            deviceModel = @"iPad Air 2";
+        }else if([platform isEqualToString:@"iPad5,4"])
+        {
+            deviceModel = @"iPad Air 2";
         }
         /* iPod Touch设备信息 */
         else if([platform isEqualToString:@"iPod1,1"])
@@ -179,7 +202,7 @@
 {
     self.deviceLabel.text = [self getDevicePlatform];
     self.batteryInfo = [BIDBatteryInfo new];
-    [self.batteryInfo initBatteryInfoiOS7];
+    [self.batteryInfo getBatteryInfo];
     
     self.currentBatteryLevel.text = self.batteryInfo.levelMsg;
     
@@ -265,15 +288,17 @@
     }else{
         self.outputLabel.text = NSLocalizedString(@"No Charger", @"no charger");
     }
-    if (!self.batteryInfo.charging && self.batteryInfo.chargerIsPluggedIn) {
-        self.fullyChargedLabel.text = NSLocalizedString(@"No Charging", @"no charging");
-    }else if(!self.batteryInfo.chargerIsPluggedIn){
-        self.fullyChargedLabel.text = NSLocalizedString(@"No Charger", @"no charger");
-    }else if(self.batteryInfo.isFullyCharged){
+    if(self.batteryInfo.isFullyCharged && self.batteryInfo.chargerIsPluggedIn) {
         self.fullyChargedLabel.text = NSLocalizedString(@"Yes", @"yes");
-    }else{
+    } else if(!self.batteryInfo.chargerIsPluggedIn) {
+        self.fullyChargedLabel.text = NSLocalizedString(@"No Charger", @"no charger");
+    } else if (!self.batteryInfo.charging && self.batteryInfo.chargerIsPluggedIn) {
+        self.fullyChargedLabel.text = NSLocalizedString(@"No Charging", @"no charging");
+    } else {
         self.fullyChargedLabel.text = NSLocalizedString(@"No", @"no");
     }
+    self.manufacturerLabel.text = self.batteryInfo.manufacturerMsg;
+    self.serialNumberLabel.text = self.batteryInfo.serialNumberMsg;
 }
 
 - (void)didReceiveMemoryWarning
